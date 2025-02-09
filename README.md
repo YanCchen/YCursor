@@ -92,8 +92,6 @@
    IMAP_USER=xxx@qq.com        # 电子邮件地址
    IMAP_PASS=xxx               # 电子邮件密码或授权码
    # IMAP_DIR=                 # [可选] 默认为收件箱(inbox)
-   
-   # 不懂怎么配置可以加QQ群：631250950 联系群主
    ```
 
 ## 🚀 使用说明
