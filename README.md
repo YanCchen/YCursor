@@ -111,7 +111,7 @@ sudo ./Yan_cursor_Change_ID_Auto
 
 或者使用root用户执行脚本
 ```
->  mac用户你的CPU是ARM也就是苹果的CPU的请使用ARM版本，Intel的请使用Intel版本
+>  mac用户你的CPU是ARM也就是苹果的CPU的请使用ARM版本，Intel的请使用X86-64版本
 
 1. **首次使用**
    - 运行程序会自动创建 .env 文件
