@@ -12,9 +12,9 @@
 - 优化界面显示和用户体验
 - **优化整体注册速度**
 - **新增自动获取UA**
-- **新增浏览器随机指纹**
+- **新增浏览器随机指纹（加强）**
 - **新增自动清理验证码邮件功能**
-- **新增自动登录重试获取令牌功能**
+- **新增自动登录重试获取令牌功能（新）**
 - 改进邮箱验证码获取逻辑
 - 增强系统稳定性和兼容性
 - 修复已知问题和bug
@@ -38,7 +38,6 @@
 
 3. **邮箱支持**
    - 支持 IMAP 邮箱配置
-   - 支持临时邮箱(tempmail.plus)
    - 支持自定义域名邮箱
    - 多种邮箱验证方式
 
@@ -60,40 +59,26 @@
    # BROWSER_PROXY='http://127.0.0.1:2080' 
    
    # 无头模式
-   BROWSER_HEADLESS='False' # True False
+   BROWSER_HEADLESS='False' # True为启用 False为不启用
    
-   # 页面加载配置
-   # PAGE_LOAD_TIMEOUT=30  # 页面加载超时时间（秒） 防止页面加载过慢导致程序卡死
-   # WAIT_BEFORE_VERIFY=5  # 等待验证码输入时间（秒） 确保页面元素完全加载，提高验证成功率
-   TURNSTILE_TIMEOUT=20  # Turnstile 验证超时时间（秒）
-   
-   # 验证码邮件有效期（秒）
-   VERIFICATION_CODE_TIMEOUT=180 # 默认3分钟，如果网络较慢可以适当增加
+   # 验证设置
+   TURNSTILE_TIMEOUT=20     # Turnstile 验证超时时间（秒）
+   VERIFICATION_CODE_TIMEOUT=180  # 验证码邮件有效期（秒），默认3分钟
    
    # 是否自动清理所有 Cursor 邮件（避免堆积太多验证码邮件）
-   CLEAN_ALL_CURSOR_MAILS='True'  # True False
+   CLEAN_ALL_CURSOR_MAILS='False'  # True为启用 False为不启用
    
-   # Cloudflare 域名邮箱地址 需要设置邮件路由规则(必填)
+   # Cloudflare 域名邮箱地址 (必填)
+   # 需要把自己的域名挂到 Cloudflare 并且设置邮件路由规则
    DOMAIN=xxxxx.com 
    
-   # （必填二选一）
-   # 临时邮箱地址https://tempmail.plus/zh/#!
-   # TEMP_MAIL='xxxxxx'   # tempmail.plus 生成的临时邮箱地址 
-   #   -如你临时邮箱为：abc@tempmail.plus，就填TEMP_MAIL='abc'就好 
-   #
-   # 当为TEMP_MAIL='xxxxxx'时，会使用tempmail.plus的邮箱收件箱
-   # 当为TEMP_MAIL=null时，会使用下面邮箱设置的邮箱的收件箱
-   #
-   # 两个只能选择一个，推荐自己配置IMAP邮箱，更稳定
-   TEMP_MAIL=null
-   
-   # IMAP服务器配置(TEMP_MAIL为null时必填)
+   # IMAP邮箱配置（必填）
    # 推荐使用QQ邮箱
-   IMAP_SERVER=imap.qq.com    # IMAP电子邮件服务器主机名
-   IMAP_PORT=993               # IMAP端口，SSL通常为993
-   IMAP_USER=xxx@qq.com        # 电子邮件地址
-   IMAP_PASS=xxx               # 电子邮件密码或授权码
-   # IMAP_DIR=                 # [可选] 默认为收件箱(inbox)
+   IMAP_SERVER=imap.qq.com    # IMAP服务器地址
+   IMAP_PORT=993              # IMAP端口，SSL通常为993
+   IMAP_USER=xxx@qq.com       # 邮箱地址
+   IMAP_PASS=xxx              # 邮箱授权码或密码
+   # IMAP_DIR=                # [可选] 默认为收件箱(inbox)
    ```
 
 ## 🚀 使用说明
@@ -109,16 +94,15 @@
 ### Linux / Mac
 
 ```
+chmod +x Yan_cursor_Change_ID_Auto
 sudo ./Yan_cursor_Change_ID_Auto
-
-或者使用root用户执行脚本
 ```
 >  mac用户你的CPU是ARM也就是苹果的CPU的请使用ARM版本，Intel的请使用X86-64版本
 
 1. **首次使用**
    - 运行程序会自动创建 .env 文件
-   - 按照提示配置邮箱信息
-   - 确保所有配置正确填写
+   - 请按照.env里的注释配置
+   - 确保.env里所有配置填写是正确的
 2. **注册流程**
    - 获取UA，并且随机生成浏览器指纹
    - 程序会自动生成随机账号
@@ -153,6 +137,7 @@ sudo ./Yan_cursor_Change_ID_Auto
    - 检查网络环境手动注册是否能过去
    - 更换网络环境
    - 开启或关闭代理以及更换节点
+   - 使用群里的geek删除谷歌浏览器，在用群里的谷歌浏览器安装器重新安装谷歌浏览器
 
 
 ## ✅新功能已经解决的问题
@@ -208,7 +193,7 @@ sudo ./Yan_cursor_Change_ID_Auto
 4. 感谢大家的支持和反馈
 
 ---
-**文档最后更新时间：2025-02-10 8:00**
+**文档最后更新时间：2025-02-12 22:00**
 
 **脚本更新在群里通知，上面只是文档**
 
