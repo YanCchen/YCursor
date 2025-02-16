@@ -44,7 +44,7 @@
    - 多种邮箱验证方式
 
 ## 💻 系统要求
-- Windows/macOS/Linux 系统
+- Windows/macOS 系统
 - 已安装 Google Chrome 浏览器
 - 稳定的网络连接
 
@@ -93,13 +93,13 @@
 
 
 
-### Linux / Mac
+###  Mac
 
 ```
 chmod +x Yan_cursor_Change_ID_Auto
 sudo ./Yan_cursor_Change_ID_Auto
 ```
->  mac用户你的CPU是ARM也就是苹果的CPU的请使用ARM版本，Intel的请使用X86-64版本
+>  你的CPU是ARM也就是苹果的CPU的请使用ARM版本，Intel的请使用X86-64版本
 >
 >  QQ群发送【怎么运行】获取更详细的启动教程
 
