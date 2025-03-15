@@ -13,7 +13,7 @@
         "show_update_notes": true,
         "update_date": "2025-03-15",
         "notification": {
-            "show": true,
+            "show": false,
             "level": "info",
             "message": "欢迎使用账户切换工具，如有问题请反馈。"
         }
@@ -32,7 +32,7 @@
         "show_update_notes": true,
         "update_date": "2025-03-15",
         "notification": {
-            "show": true,
+            "show": false,
             "level": "info",
             "message": "欢迎使用账户切换工具Mac版，如有问题请反馈。"
         }
@@ -51,7 +51,7 @@
         "show_update_notes": true,
         "update_date": "2025-03-15",
         "notification": {
-            "show": true,
+            "show": false,
             "level": "info",
             "message": "欢迎使用账户切换工具Linux版，如有问题请反馈。"
         }
