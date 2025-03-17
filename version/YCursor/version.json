@@ -15,7 +15,7 @@
         "notification": {
             "show": true,
             "level": "info",
-            "message": "欢迎使用YCursor，如有问题请在群里反馈\n请确保你的脚本目录下有cursor_accounts.json文件"
+            "message": "欢迎使用YCursor，如有问题请在群里反馈\n该脚本是用于管理使用群主的自动注册脚本后保存的账号信息\n请确保你的脚本目录下有cursor_accounts.json文件"
         }
     },
     "mac": {
@@ -34,7 +34,7 @@
         "notification": {
             "show": true,
             "level": "info",
-            "message": "欢迎使用YCursor，如有问题请在群里反馈\n请确保你的脚本目录下有cursor_accounts.json文件"
+            "message": "欢迎使用YCursor，如有问题请在群里反馈\n该脚本是用于管理使用群主的自动注册脚本后保存的账号信息\n请确保你的脚本目录下有cursor_accounts.json文件"
         }
     },
     "linux": {
@@ -53,7 +53,7 @@
         "notification": {
             "show": true,
             "level": "info",
-            "message": "欢迎使用YCursor，如有问题请在群里反馈\n请确保你的脚本目录下有cursor_accounts.json文件"
+            "message": "欢迎使用YCursor，如有问题请在群里反馈\n该脚本是用于管理使用群主的自动注册脚本后保存的账号信息\n请确保你的脚本目录下有cursor_accounts.json文件"
         }
     },
     "global": {
