@@ -13,7 +13,7 @@
         "show_update_notes": true,
         "update_date": "2025-03-15",
         "notification": {
-            "show": false,
+            "show": true,
             "level": "info",
             "message": "欢迎使用YCursor，如有问题请在群里反馈\n请确保你的脚本目录下有cursor_accounts.json文件"
         }
@@ -32,7 +32,7 @@
         "show_update_notes": true,
         "update_date": "2025-03-15",
         "notification": {
-            "show": false,
+            "show": true,
             "level": "info",
             "message": "欢迎使用YCursor，如有问题请在群里反馈\n请确保你的脚本目录下有cursor_accounts.json文件"
         }
@@ -51,7 +51,7 @@
         "show_update_notes": true,
         "update_date": "2025-03-15",
         "notification": {
-            "show": false,
+            "show": true,
             "level": "info",
             "message": "欢迎使用YCursor，如有问题请在群里反馈\n请确保你的脚本目录下有cursor_accounts.json文件"
         }

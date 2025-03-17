@@ -1,84 +1,105 @@
 {
-    "win": {
-        "latest_version": "2.0.0",
-        "min_version": "2.0.0",
-        "force_update": true,
-        "update_url": "https://cursor.yan.vin/download/YCursor_win_v2.0.0.zip",
-        "changes": [
-            "修复了账户切换时可能出现的错误",
-            "优化了用户界面",
-            "提高了程序稳定性"
-        ],
-        "show_update_url": false,
-        "show_update_notes": true,
-        "update_date": "2025-03-15",
-        "notification": {
-            "show": true,
-            "level": "info",
-            "message": "欢迎使用YCursor，如有问题请在群里反馈\n请确保你的脚本目录下有cursor_accounts.json文件"
-        }
+    "global_notice": {
+        "enabled": true,
+        "type": "info",
+        "title": "提示",
+        "content": "更新7.0.0版本后,因为新版增加了修改了很多配置，\n请把你目前的.env文件移动到其他地方\n然后重新运行程序，会自动生成新的.env文件\n然后按照你原来的配置填写新的.env文件\n2025-03-08 12:00",
+        "show_time": 5
     },
-    "mac": {
-        "latest_version": "2.0.0",
-        "min_version": "2.0.0",
-        "force_update": true,
-        "update_url": "https://cursor.yan.vin/download/YCursor_mac_v2.0.0.zip",
-        "changes": [
-            "修复了macOS特定的界面显示问题",
-            "优化了用户界面",
-            "提高了程序稳定性"
-        ],
-        "show_update_url": false,
-        "show_update_notes": true,
-        "update_date": "2025-03-15",
-        "notification": {
-            "show": true,
-            "level": "info",
-            "message": "欢迎使用YCursor，如有问题请在群里反馈\n请确保你的脚本目录下有cursor_accounts.json文件"
-        }
+    "windows": {
+        "version": "7.0.0",
+        "min_version": "7.0.0",
+        "update_time": "2025-03-08",
+        "notice": "Windows版本更新提醒",
+        "changelog": [
+            {
+                "version": "7.0.0",
+                "date": "2025-03-08",
+                "changes": [
+                    "新增支持 Cursor v0.46.x 版本",
+                    "凭空想象优化Mac的Cursor支持版本",
+                    "重构修改机器码逻辑使Mac支持更高的版本",
+                    "优化界面显示和用户体验",
+                    "优化整体注册速度",
+                    "优化自动清理验证码邮件功能",
+                    "优化查找旧邮件后的处理逻辑",
+                    "优化自动获取UA逻辑",
+                    "新增恢复功能",
+                    "新增自定义正则表达式（查找验证码时）",
+                    "新增支持 tempmail.plus 临时邮箱",
+                    "新增终端询问自动选择配置（懒人必备，连回车都不用按了）",
+                    "新增获取的账号信息保存到本地",
+                    "新增无头模式自动获取UA功能",
+                    "新增防无脑小白提示",
+                    "改进邮箱验证码获取逻辑",
+                    "增强系统稳定性和兼容性",
+                    "修复已知问题和bug"
+                ]
+            }
+        ]
+    },
+    "darwin": {
+        "version": "7.0.0",
+        "min_version": "6.0.0",
+        "update_time": "2025-03-08",
+        "notice": "macOS版本更新提醒",
+        "changelog": [
+            {
+                "version": "7.0.0",
+                "date": "2025-03-08",
+                "changes": [
+                    "新增支持 Cursor v0.46.x 版本",
+                    "凭空想象优化Mac的Cursor支持版本",
+                    "重构修改机器码逻辑使Mac支持更高的版本",
+                    "优化界面显示和用户体验",
+                    "优化整体注册速度",
+                    "优化自动清理验证码邮件功能",
+                    "优化查找旧邮件后的处理逻辑",
+                    "优化自动获取UA逻辑",
+                    "新增恢复功能",
+                    "新增自定义正则表达式（查找验证码时）",
+                    "新增支持 tempmail.plus 临时邮箱",
+                    "新增终端询问自动选择配置（懒人必备，连回车都不用按了）",
+                    "新增获取的账号信息保存到本地",
+                    "新增无头模式自动获取UA功能",
+                    "新增防无脑小白提示",
+                    "改进邮箱验证码获取逻辑",
+                    "增强系统稳定性和兼容性",
+                    "修复已知问题和bug"
+                ]
+            }
+        ]
     },
     "linux": {
-        "latest_version": "2.0.0",
-        "min_version": "2.0.0",
-        "force_update": true,
-        "update_url": "https://cursor.yan.vin/download/YCursor_linux_v2.0.0.zip",
-        "changes": [
-            "修复了Linux特定的兼容性问题",
-            "优化了用户界面",
-            "提高了程序稳定性"
-        ],
-        "show_update_url": false,
-        "show_update_notes": true,
-        "update_date": "2025-03-15",
-        "notification": {
-            "show": true,
-            "level": "info",
-            "message": "欢迎使用YCursor，如有问题请在群里反馈\n请确保你的脚本目录下有cursor_accounts.json文件"
-        }
-    },
-    "global": {
-        "maintenance": false,
-        "maintenance_message": "系统正在维护中，请稍后再试",
-        "global_notification": {
-            "show": false,
-            "level": "warning",
-            "message": "我是一条全局通知消息，对所有用户可见"
-        },
-        "disclaimer": {
-            "show": true,
-            "title": "免责声明",
-            "content": [
-                "1. 本脚本软件仅供学习交流使用，未经开发者明确书面许可，任何人不得将其用于商业目的。",
-                "2. 开发者保留对本脚本软件的所有权及最终解释权，并有权自行将其用于商业用途。",
-                "3. 本脚本软件可能会修改电脑数据，用户在使用前应充分了解其功能及潜在风险。因使用本软件导致的任何数据丢失、系统损坏或其他问题，开发者概不负责。",
-                "4. 用户在使用本软件时，应确保已备份重要数据，并承担因使用本软件而产生的所有后果。",
-                "5. 开发者不对因使用本软件导致的任何直接或间接损失负责，包括但不限于数据丢失、设备损坏、第三方服务中断或其他相关损失。",
-                "6. 用户在使用本软件时，应遵守所在国家或地区的法律法规，不得利用本软件从事任何违法或损害他人利益的行为。",
-                "7. 如用户违反本免责声明的任何条款，开发者有权立即终止用户使用本软件的权利，且无需承担任何责任。"
-            ],
-            "must_agree": true,
-            "agree_button": "我同意",
-            "cancel_button": "我不同意并退出"
-        }
+        "version": "7.0.0",
+        "min_version": "6.0.0",
+        "update_time": "2025-03-08",
+        "notice": "Linux版本更新提醒",
+        "changelog": [
+            {
+                "version": "7.0.0",
+                "date": "2025-03-08",
+                "changes": [
+                    "新增支持 Cursor v0.46.x 版本",
+                    "凭空想象优化Mac的Cursor支持版本",
+                    "重构修改机器码逻辑使Mac支持更高的版本",
+                    "优化界面显示和用户体验",
+                    "优化整体注册速度",
+                    "优化自动清理验证码邮件功能",
+                    "优化查找旧邮件后的处理逻辑",
+                    "优化自动获取UA逻辑",
+                    "新增恢复功能",
+                    "新增自定义正则表达式（查找验证码时）",
+                    "新增支持 tempmail.plus 临时邮箱",
+                    "新增终端询问自动选择配置（懒人必备，连回车都不用按了）",
+                    "新增获取的账号信息保存到本地",
+                    "新增无头模式自动获取UA功能",
+                    "新增防无脑小白提示",
+                    "改进邮箱验证码获取逻辑",
+                    "增强系统稳定性和兼容性",
+                    "修复已知问题和bug"
+                ]
+            }
+        ]
     }
-}
+} 
