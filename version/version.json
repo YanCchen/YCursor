@@ -3,19 +3,20 @@
         "enabled": true,
         "type": "info",
         "title": "提示",
-        "content": "更新7.4.0版本后,因为新版增加了修改了很多配置，\n请把你目前的.env文件移动到其他地方\n然后重新运行程序，会自动生成新的.env文件\n然后按照你原来的配置填写新的.env文件\n2025-03-18 12:00",
+        "content": "更新7.5.0版本后,因为新版增加了修改了很多配置，\n请把你目前的.env文件移动到其他地方\n然后重新运行程序，会自动生成新的.env文件\n然后按照你原来的配置填写新的.env文件\n2025-03-21 23:00",
         "show_time": 5
     },
     "windows": {
-        "version": "7.4.0",
-        "min_version": "7.4.0",
-        "update_time": "2025-03-18",
+        "version": "7.5.0",
+        "min_version": "7.5.0",
+        "update_time": "2025-03-21",
         "notice": "Windows版本更新提醒",
         "changelog": [
             {
-                "version": "7.4.0",
-                "date": "2025-03-18",
+                "version": "7.5.0",
+                "date": "2025-03-21",
                 "changes": [
+                    "win/mac都支持双击运行啦",
                     "新增支持 Cursor v0.47.x 版本",
                     "凭空想象优化Mac的Cursor支持版本",
                     "重构修改机器码逻辑使Mac支持更高的版本",
@@ -32,15 +33,16 @@
         ]
     },
     "darwin": {
-        "version": "7.4.0",
-        "min_version": "6.0.0",
-        "update_time": "2025-03-18",
+        "version": "7.5.0",
+        "min_version": "7.5.0",
+        "update_time": "2025-03-21",
         "notice": "macOS版本更新提醒",
         "changelog": [
             {
-                "version": "7.4.0",
-                "date": "2025-03-18",
+                "version": "7.5.0",
+                "date": "2025-03-21",
                 "changes": [
+                    "win/mac都支持双击运行啦",
                     "新增支持 Cursor v0.47.x 版本",
                     "凭空想象优化Mac的Cursor支持版本",
                     "重构修改机器码逻辑使Mac支持更高的版本",
@@ -57,15 +59,16 @@
         ]
     },
     "linux": {
-        "version": "7.4.0",
-        "min_version": "6.0.0",
-        "update_time": "2025-03-18",
+        "version": "7.5.0",
+        "min_version": "7.5.0",
+        "update_time": "2025-03-21",
         "notice": "Linux版本更新提醒",
         "changelog": [
             {
-                "version": "7.4.0",
-                "date": "2025-03-18",
+                "version": "7.5.0",
+                "date": "2025-03-21",
                 "changes": [
+                    "win/mac都支持双击运行啦",
                     "新增支持 Cursor v0.47.x 版本",
                     "凭空想象优化Mac的Cursor支持版本",
                     "重构修改机器码逻辑使Mac支持更高的版本",
