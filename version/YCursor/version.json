@@ -1,57 +1,66 @@
 {
     "win": {
-        "latest_version": "2.0.0",
-        "min_version": "2.0.0",
+        "latest_version": "3.0.0",
+        "min_version": "3.0.0",
         "force_update": true,
-        "update_url": "https://cursor.yan.vin/download/YCursor_win_v2.0.0.zip",
+        "update_url": "https://cursor.yan.vin/download/YCursor_win_v3.0.0.zip",
         "changes": [
             "修复了账户切换时可能出现的错误",
-            "优化了用户界面",
-            "提高了程序稳定性"
+            "修复账号管理页面的众多问题",
+            "添加多线程处理，避免GUI持续卡顿",
+            "添加功能、日志页面",
+            "添加保存当前登录账户",
+            "优化了部分界面"
         ],
         "show_update_url": false,
         "show_update_notes": true,
-        "update_date": "2025-03-15",
+        "update_date": "2025-04-02",
         "notification": {
-            "show": true,
+            "show": false,
             "level": "info",
             "message": "欢迎使用YCursor，如有问题请在群里反馈\n该脚本是用于管理使用群主的自动注册脚本后保存的账号信息\n请确保你的脚本目录下有cursor_accounts.json文件"
         }
     },
     "mac": {
-        "latest_version": "2.0.0",
-        "min_version": "2.0.0",
+        "latest_version": "3.0.0",
+        "min_version": "3.0.0",
         "force_update": true,
-        "update_url": "https://cursor.yan.vin/download/YCursor_mac_v2.0.0.zip",
+        "update_url": "https://cursor.yan.vin/download/YCursor_mac_v3.0.0.zip",
         "changes": [
-            "修复了macOS特定的界面显示问题",
-            "优化了用户界面",
-            "提高了程序稳定性"
+            "修复了账户切换时可能出现的错误",
+            "修复账号管理页面的众多问题",
+            "添加多线程处理，避免GUI持续卡顿",
+            "添加功能、日志页面",
+            "添加保存当前登录账户",
+            "优化了部分界面"
         ],
         "show_update_url": false,
         "show_update_notes": true,
-        "update_date": "2025-03-15",
+        "update_date": "2025-04-02",
         "notification": {
-            "show": true,
+            "show": false,
             "level": "info",
             "message": "欢迎使用YCursor，如有问题请在群里反馈\n该脚本是用于管理使用群主的自动注册脚本后保存的账号信息\n请确保你的脚本目录下有cursor_accounts.json文件"
         }
     },
     "linux": {
-        "latest_version": "2.0.0",
-        "min_version": "2.0.0",
+        "latest_version": "3.0.0",
+        "min_version": "3.0.0",
         "force_update": true,
-        "update_url": "https://cursor.yan.vin/download/YCursor_linux_v2.0.0.zip",
+        "update_url": "https://cursor.yan.vin/download/YCursor_linux_v3.0.0.zip",
         "changes": [
-            "修复了Linux特定的兼容性问题",
-            "优化了用户界面",
-            "提高了程序稳定性"
+            "修复了账户切换时可能出现的错误",
+            "修复账号管理页面的众多问题",
+            "添加多线程处理，避免GUI持续卡顿",
+            "添加功能、日志页面",
+            "添加保存当前登录账户",
+            "优化了部分界面"
         ],
         "show_update_url": false,
         "show_update_notes": true,
-        "update_date": "2025-03-15",
+        "update_date": "2025-04-02",
         "notification": {
-            "show": true,
+            "show": false,
             "level": "info",
             "message": "欢迎使用YCursor，如有问题请在群里反馈\n该脚本是用于管理使用群主的自动注册脚本后保存的账号信息\n请确保你的脚本目录下有cursor_accounts.json文件"
         }
