@@ -16,9 +16,9 @@
         "show_update_notes": true,
         "update_date": "2025-04-02",
         "notification": {
-            "show": false,
-            "level": "info",
-            "message": "欢迎使用YCursor，如有问题请在群里反馈\n该脚本是用于管理使用群主的自动注册脚本后保存的账号信息\n请确保你的脚本目录下有cursor_accounts.json文件"
+            "show": true,
+            "level": "warning",
+            "message": "由于目前 Cursor 修改了网页获取的 jwt 时效策略，导致脚本网页设置页获取到的 jwt 都为 2 小时 10 分的有效期 jwt，而非长期有效 jwt，从而导致脚本自动自动替换完后，启动 Cursor ，账户就会自动退出 \n 可以自己查看自动注册保存的 json 文件账号密码，进行手动登录，需要验证码退出再进行重新登录，可以不用收验证码"
         }
     },
     "mac": {
@@ -38,9 +38,9 @@
         "show_update_notes": true,
         "update_date": "2025-04-02",
         "notification": {
-            "show": false,
-            "level": "info",
-            "message": "欢迎使用YCursor，如有问题请在群里反馈\n该脚本是用于管理使用群主的自动注册脚本后保存的账号信息\n请确保你的脚本目录下有cursor_accounts.json文件"
+            "show": true,
+            "level": "warning",
+            "message": "由于目前 Cursor 修改了网页获取的 jwt 时效策略，导致脚本网页设置页获取到的 jwt 都为 2 小时 10 分的有效期 jwt，而非长期有效 jwt，从而导致脚本自动自动替换完后，启动 Cursor ，账户就会自动退出 \n 可以自己查看自动注册保存的 json 文件账号密码，进行手动登录，需要验证码退出再进行重新登录，可以不用收验证码"
         }
     },
     "linux": {
@@ -60,9 +60,9 @@
         "show_update_notes": true,
         "update_date": "2025-04-02",
         "notification": {
-            "show": false,
-            "level": "info",
-            "message": "欢迎使用YCursor，如有问题请在群里反馈\n该脚本是用于管理使用群主的自动注册脚本后保存的账号信息\n请确保你的脚本目录下有cursor_accounts.json文件"
+            "show": true,
+            "level": "warning",
+            "message": "由于目前 Cursor 修改了网页获取的 jwt 时效策略，导致脚本网页设置页获取到的 jwt 都为 2 小时 10 分的有效期 jwt，而非长期有效 jwt，从而导致脚本自动自动替换完后，启动 Cursor ，账户就会自动退出 \n 可以自己查看自动注册保存的 json 文件账号密码，进行手动登录，需要验证码退出再进行重新登录，可以不用收验证码"
         }
     },
     "global": {
