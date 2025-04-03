@@ -1,16 +1,16 @@
 {
     "win": {
-        "latest_version": "3.0.0",
-        "min_version": "3.0.0",
+        "latest_version": "3.1.0",
+        "min_version": "3.1.0",
         "force_update": true,
-        "update_url": "https://cursor.yan.vin/download/YCursor_win_v3.0.0.zip",
+        "update_url": "https://cursor.yan.vin/download/YCursor_win_v3.1.0.zip",
         "changes": [
-            "修复了账户切换时可能出现的错误",
-            "修复账号管理页面的众多问题",
-            "添加多线程处理，避免GUI持续卡顿",
-            "添加功能、日志页面",
-            "添加保存当前登录账户",
-            "优化了部分界面"
+            "添加设置页面",
+            "设置页面添加偏好设置",
+            "账户管理页面添加账户详情功能（点击邮箱号）",
+            "账户详情添加查看邮箱号和密码",
+            "账户详情添加账户备注功能",
+            "优化保存当前账户按钮功能"
         ],
         "show_update_url": false,
         "show_update_notes": true,
@@ -18,21 +18,21 @@
         "notification": {
             "show": true,
             "level": "warning",
-            "message": "由于目前 Cursor 修改了网页获取的 jwt 时效策略，导致脚本网页设置页获取到的 jwt 都为 2 小时 10 分的有效期 jwt，而非长期有效 jwt，从而导致脚本自动自动替换完后，启动 Cursor ，账户就会自动退出 \n\n可以自己查看自动注册保存的 json 文件账号密码，进行手动登录，需要验证码退出再进行重新登录，可以不用收验证码"
+            "message": "由于目前 Cursor 修改了网页获取的 jwt 时效策略，导致脚本网页设置页获取到的 jwt 都为 2 小时 10 分的有效期 jwt，而非长期有效 jwt，从而导致脚本自动自动替换完后，启动 Cursor ，账户就会自动退出 \n\nYCursor在账户管理页面点击邮箱号可查看账户密码，进行手动登录，需要验证码返回上一步重新进行登录，可以不用收验证码\n\n登录好后可以使用 保存当前账户 按钮保存当前登录账户，方便下次更换使用"
         }
     },
     "mac": {
-        "latest_version": "3.0.0",
-        "min_version": "3.0.0",
+        "latest_version": "3.1.0",
+        "min_version": "3.1.0",
         "force_update": true,
-        "update_url": "https://cursor.yan.vin/download/YCursor_mac_v3.0.0.zip",
+        "update_url": "https://cursor.yan.vin/download/YCursor_mac_v3.1.0.zip",
         "changes": [
-            "修复了账户切换时可能出现的错误",
-            "修复账号管理页面的众多问题",
-            "添加多线程处理，避免GUI持续卡顿",
-            "添加功能、日志页面",
-            "添加保存当前登录账户",
-            "优化了部分界面"
+            "添加设置页面",
+            "设置页面添加偏好设置",
+            "账户管理页面添加账户详情功能（点击邮箱号）",
+            "账户详情添加查看邮箱号和密码",
+            "账户详情添加账户备注功能",
+            "优化保存当前账户按钮功能"
         ],
         "show_update_url": false,
         "show_update_notes": true,
@@ -40,21 +40,21 @@
         "notification": {
             "show": true,
             "level": "warning",
-            "message": "由于目前 Cursor 修改了网页获取的 jwt 时效策略，导致脚本网页设置页获取到的 jwt 都为 2 小时 10 分的有效期 jwt，而非长期有效 jwt，从而导致脚本自动自动替换完后，启动 Cursor ，账户就会自动退出 \n\n可以自己查看自动注册保存的 json 文件账号密码，进行手动登录，需要验证码退出再进行重新登录，可以不用收验证码"
+            "message": "由于目前 Cursor 修改了网页获取的 jwt 时效策略，导致脚本网页设置页获取到的 jwt 都为 2 小时 10 分的有效期 jwt，而非长期有效 jwt，从而导致脚本自动自动替换完后，启动 Cursor ，账户就会自动退出 \n\nYCursor在账户管理页面点击邮箱号可查看账户密码，进行手动登录，需要验证码返回上一步重新进行登录，可以不用收验证码\n\n登录好后可以使用 保存当前账户 按钮保存当前登录账户，方便下次更换使用"
         }
     },
     "linux": {
-        "latest_version": "3.0.0",
-        "min_version": "3.0.0",
+        "latest_version": "3.1.0",
+        "min_version": "3.1.0",
         "force_update": true,
-        "update_url": "https://cursor.yan.vin/download/YCursor_linux_v3.0.0.zip",
+        "update_url": "https://cursor.yan.vin/download/YCursor_linux_v3.1.0.zip",
         "changes": [
-            "修复了账户切换时可能出现的错误",
-            "修复账号管理页面的众多问题",
-            "添加多线程处理，避免GUI持续卡顿",
-            "添加功能、日志页面",
-            "添加保存当前登录账户",
-            "优化了部分界面"
+            "添加设置页面",
+            "设置页面添加偏好设置",
+            "账户管理页面添加账户详情功能（点击邮箱号）",
+            "账户详情添加查看邮箱号和密码",
+            "账户详情添加账户备注功能",
+            "优化保存当前账户按钮功能"
         ],
         "show_update_url": false,
         "show_update_notes": true,
@@ -62,7 +62,7 @@
         "notification": {
             "show": true,
             "level": "warning",
-            "message": "由于目前 Cursor 修改了网页获取的 jwt 时效策略，导致脚本网页设置页获取到的 jwt 都为 2 小时 10 分的有效期 jwt，而非长期有效 jwt，从而导致脚本自动自动替换完后，启动 Cursor ，账户就会自动退出 \n\n可以自己查看自动注册保存的 json 文件账号密码，进行手动登录，需要验证码退出再进行重新登录，可以不用收验证码"
+            "message": "由于目前 Cursor 修改了网页获取的 jwt 时效策略，导致脚本网页设置页获取到的 jwt 都为 2 小时 10 分的有效期 jwt，而非长期有效 jwt，从而导致脚本自动自动替换完后，启动 Cursor ，账户就会自动退出 \n\nYCursor在账户管理页面点击邮箱号可查看账户密码，进行手动登录，需要验证码返回上一步重新进行登录，可以不用收验证码\n\n登录好后可以使用 保存当前账户 按钮保存当前登录账户，方便下次更换使用"
         }
     },
     "global": {
