@@ -1,16 +1,11 @@
 {
     "win": {
-        "latest_version": "3.1.0",
-        "min_version": "3.1.0",
+        "latest_version": "3.5.4",
+        "min_version": "3.5.4",
         "force_update": true,
         "update_url": "https://cursor.yan.vin/download/YCursor_win_v3.1.0.zip",
         "changes": [
-            "添加设置页面",
-            "设置页面添加偏好设置",
-            "账户管理页面添加账户详情功能（点击邮箱号）",
-            "账户详情添加查看邮箱号和密码",
-            "账户详情添加账户备注功能",
-            "优化保存当前账户按钮功能"
+            "加了好多，懒得写了"
         ],
         "show_update_url": false,
         "show_update_notes": true,
