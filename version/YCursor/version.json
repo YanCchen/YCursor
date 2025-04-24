@@ -1,7 +1,7 @@
 {
     "win": {
         "latest_version": "3.5.4",
-        "min_version": "3.5.4",
+        "min_version": "3.2.5",
         "force_update": true,
         "update_url": "https://cursor.yan.vin/download/YCursor_win_v3.1.0.zip",
         "changes": [
