@@ -11,9 +11,9 @@
         "show_update_notes": true,
         "update_date": "2025-04-02",
         "notification": {
-            "show": false,
+            "show": true,
             "level": "info",
-            "message": "有问题群里反馈"
+            "message": "Win测试版，闪退的点功能完成后慢一点，不要连续，不然会崩溃\n因为我现在改成使用Pyside6了，不是Pyqt6，但是对于文件处理相关的，还是使用旧的方法，所以会出现崩溃情况"
         }
     },
     "mac": {
