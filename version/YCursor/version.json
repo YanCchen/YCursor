@@ -1,17 +1,18 @@
 {
     "win": {
-        "latest_version": "3.5.4",
-        "min_version": "3.2.5",
+        "latest_version": "3.5.5",
+        "min_version": "3.5.5",
         "force_update": true,
         "update_url": "https://cursor.yan.vin/download/YCursor_win_v3.1.0.zip",
         "changes": [
-            "加了好多，懒得写了"
+            "加了好多，懒得写了",
+			"凭空想象修复崩溃"
         ],
         "show_update_url": false,
         "show_update_notes": true,
-        "update_date": "2025-04-02",
+        "update_date": "2025-04-25",
         "notification": {
-            "show": true,
+            "show": false,
             "level": "info",
             "message": "Win测试版，闪退的点功能完成后慢一点，不要连续，不然会崩溃\n因为我现在改成使用Pyside6了，不是Pyqt6，但是对于文件处理相关的，还是使用旧的方法，所以会出现崩溃情况"
         }
