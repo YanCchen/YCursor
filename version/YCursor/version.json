@@ -1,7 +1,7 @@
 {
     "win": {
-        "latest_version": "3.5.5",
-        "min_version": "3.5.5",
+        "latest_version": "3.5.6",
+        "min_version": "3.5.6",
         "force_update": true,
         "update_url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DW3WPtF34S3QW7cRWexJ5P",
         "changes": [
@@ -12,7 +12,7 @@
         "show_update_notes": true,
         "update_date": "2025-04-25",
         "notification": {
-            "show": true,
+            "show": false,
             "level": "info",
             "message": "Win测试版，闪退的点功能完成后慢一点，不要连续，不然会崩溃\n因为我现在改成使用Pyside6了，不是Pyqt6，但是对于文件处理相关的，还是使用旧的方法，所以会出现崩溃情况"
         }
