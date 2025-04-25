@@ -3,12 +3,12 @@
         "latest_version": "3.5.5",
         "min_version": "3.5.5",
         "force_update": true,
-        "update_url": "https://cursor.yan.vin/download/YCursor_win_v3.1.0.zip",
+        "update_url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DW3WPtF34S3QW7cRWexJ5P",
         "changes": [
             "加了好多，懒得写了",
 			"凭空想象修复崩溃"
         ],
-        "show_update_url": false,
+        "show_update_url": true,
         "show_update_notes": true,
         "update_date": "2025-04-25",
         "notification": {
@@ -21,7 +21,7 @@
         "latest_version": "3.1.0",
         "min_version": "3.1.0",
         "force_update": true,
-        "update_url": "https://cursor.yan.vin/download/YCursor_mac_v3.1.0.zip",
+        "update_url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DW3WPtF34S3QW7cRWexJ5P",
         "changes": [
             "添加设置页面",
             "设置页面添加偏好设置",
@@ -43,7 +43,7 @@
         "latest_version": "3.1.0",
         "min_version": "3.1.0",
         "force_update": true,
-        "update_url": "https://cursor.yan.vin/download/YCursor_linux_v3.1.0.zip",
+        "update_url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DW3WPtF34S3QW7cRWexJ5P",
         "changes": [
             "添加设置页面",
             "设置页面添加偏好设置",
