@@ -1,0 +1,90 @@
+{
+    "win": {
+        "latest_version": "3.5.6",
+        "min_version": "3.5.6",
+        "force_update": true,
+        "update_url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DW3WPtF34S3QW7cRWexJ5P",
+        "changes": [
+            "加了好多，懒得写了",
+			"凭空想象修复崩溃"
+        ],
+        "show_update_url": true,
+        "show_update_notes": true,
+        "update_date": "2025-04-25",
+        "notification": {
+            "show": false,
+            "level": "info",
+            "message": "Win测试版，闪退的点功能完成后慢一点，不要连续，不然会崩溃\n因为我现在改成使用Pyside6了，不是Pyqt6，但是对于文件处理相关的，还是使用旧的方法，所以会出现崩溃情况"
+        }
+    },
+    "mac": {
+        "latest_version": "3.1.0",
+        "min_version": "3.1.0",
+        "force_update": true,
+        "update_url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DW3WPtF34S3QW7cRWexJ5P",
+        "changes": [
+            "添加设置页面",
+            "设置页面添加偏好设置",
+            "账户管理页面添加账户详情功能（点击邮箱号）",
+            "账户详情添加查看邮箱号和密码",
+            "账户详情添加账户备注功能",
+            "优化保存当前账户按钮功能"
+        ],
+        "show_update_url": false,
+        "show_update_notes": true,
+        "update_date": "2025-04-02",
+        "notification": {
+            "show": false,
+            "level": "info",
+            "message": "有问题群里反馈"
+        }
+    },
+    "linux": {
+        "latest_version": "3.1.0",
+        "min_version": "3.1.0",
+        "force_update": true,
+        "update_url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DW3WPtF34S3QW7cRWexJ5P",
+        "changes": [
+            "添加设置页面",
+            "设置页面添加偏好设置",
+            "账户管理页面添加账户详情功能（点击邮箱号）",
+            "账户详情添加查看邮箱号和密码",
+            "账户详情添加账户备注功能",
+            "优化保存当前账户按钮功能"
+        ],
+        "show_update_url": false,
+        "show_update_notes": true,
+        "update_date": "2025-04-02",
+        "notification": {
+            "show": false,
+            "level": "info",
+            "message": "有问题群里反馈"
+        }
+    },
+    "global": {
+        "maintenance": false,
+        "maintenance_message": "系统正在维护中，请稍后再试",
+        "global_notification": {
+            "show": false,
+            "level": "warning",
+            "message": "我是一条全局通知消息，对所有用户可见"
+        },
+        "disclaimer": {
+            "show": true,
+			"version": "2.0",
+            "title": "免责声明",
+            "content": [
+                "1. 本脚本软件仅供学习交流使用，未经开发者明确书面许可，任何人不得将其用于商业目的。",
+                "2. 开发者保留对本脚本软件的所有权及最终解释权，并有权自行将其用于商业用途。",
+                "3. 本脚本软件可能会修改电脑数据，用户在使用前应充分了解其功能及潜在风险。因使用本软件导致的任何数据丢失、系统损坏或其他问题，开发者概不负责。",
+                "4. 用户在使用本软件时，应确保已备份重要数据，并承担因使用本软件而产生的所有后果。",
+                "5. 开发者不对因使用本软件导致的任何直接或间接损失负责，包括但不限于数据丢失、设备损坏、第三方服务中断或其他相关损失。",
+                "6. 用户在使用本软件时，应遵守所在国家或地区的法律法规，不得利用本软件从事任何违法或损害他人利益的行为。",
+                "7. 如用户违反本免责声明的任何条款，开发者有权立即终止用户使用本软件的权利，且无需承担任何责任。"
+            ],
+            "must_agree": true,
+            "agree_button": "我同意",
+            "cancel_button": "我不同意并退出"
+        }
+    }
+}
