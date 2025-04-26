@@ -1,16 +1,15 @@
 {
     "win": {
-        "latest_version": "3.5.6",
-        "min_version": "3.5.6",
+        "latest_version": "3.5.7",
+        "min_version": "3.5.7",
         "force_update": true,
         "update_url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DW3WPtF34S3QW7cRWexJ5P",
         "changes": [
-            "加了好多，懒得写了",
-			"凭空想象修复崩溃"
+            "加了好多，懒得写了，自己看更新日志吧"
         ],
         "show_update_url": true,
         "show_update_notes": true,
-        "update_date": "2025-04-25",
+        "update_date": "2025-04-26",
         "notification": {
             "show": false,
             "level": "info",
