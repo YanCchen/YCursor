@@ -94,17 +94,18 @@
             "cancel_button": "我不同意并退出"
         },
         "about_info": {
-            "copyright": "© 2025 Yan - All rights reserved",
-            "email": "yan@yjf.vin",
-            "qq_group_1_label": "QQ群:",
-            "qq_group_1": "631250950",
-            "qq_group_2_prefix": "(群满加二群:",
-            "qq_group_2": "752439445",
+            "copyright": "© 20251 Yan - All rights reserved",
+            "email": "yan@yjf.vin1",
+            "qq_group_1_label": "QQ群呀:",
+            "qq_group_1": "631250950123",
+            "qq_group_2_prefix": "(群满加三群:",
+            "qq_group_2": "752439441115",
             "qq_group_2_suffix": ")",
             "docs_links": [
                 {"icon": "📖", "desc": "官方文档:", "url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DKRZhtXI98ELAa724va8q8"},
                 {"icon": "💰", "desc": "赞赏帮助:", "url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=Dhxjveq0qkJEjXPHdPofa1"},
                 {"icon": "📜", "desc": "更新日志:", "url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DW3WPtF34S3QW7cRWexJ5P"},
+                {"icon": "📜", "desc": "xiaoyan:", "url": "https://yan.vin"},
                 {"icon": "⚙️", "desc": "自动注册配置:", "url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=TKqrmzfCkQcbQnP5Lk70iU"}
             ]
         }
