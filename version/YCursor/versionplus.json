@@ -1,38 +1,44 @@
 {
     "win": {
-        "latest_version": "3.5.6",
-        "min_version": "3.5.6",
+        "latest_version": "3.5.0",
+        "min_version": "3.5.0",
         "force_update": true,
-        "update_url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DW3WPtF34S3QW7cRWexJ5P",
+        "update_url": "https://cursor.yan.vin/download/YCursor_win_v3.5.0.zip",
         "changes": [
-            "加了好多，懒得写了",
-			"凭空想象修复崩溃"
-        ],
-        "show_update_url": true,
-        "show_update_notes": true,
-        "update_date": "2025-04-25",
-        "notification": {
-            "show": false,
-            "level": "info",
-            "message": "Win测试版，闪退的点功能完成后慢一点，不要连续，不然会崩溃\n因为我现在改成使用Pyside6了，不是Pyqt6，但是对于文件处理相关的，还是使用旧的方法，所以会出现崩溃情况"
-        }
-    },
-    "mac": {
-        "latest_version": "3.1.0",
-        "min_version": "3.1.0",
-        "force_update": true,
-        "update_url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DW3WPtF34S3QW7cRWexJ5P",
-        "changes": [
-            "添加设置页面",
-            "设置页面添加偏好设置",
-            "账户管理页面添加账户详情功能（点击邮箱号）",
-            "账户详情添加查看邮箱号和密码",
-            "账户详情添加账户备注功能",
-            "优化保存当前账户按钮功能"
+            "新增备份/恢复 Cursor 设置配置",
+            "新增备份/恢复 Cursor 会话记录",
+            "新增新版禁用更新",
+            "新增Cursor代理配置",
+            "新增重置机器码",
+            "新增初始化 Cursor",
+            "新增自动注册 Cursor 账号"
         ],
         "show_update_url": false,
         "show_update_notes": true,
-        "update_date": "2025-04-02",
+        "update_date": "2025-04-20",
+        "notification": {
+            "show": false,
+            "level": "info",
+            "message": "有问题群里反馈"
+        }
+    },
+    "mac": {
+        "latest_version": "3.5.0",
+        "min_version": "3.5.0",
+        "force_update": true,
+        "update_url": "https://cursor.yan.vin/download/YCursor_mac_v3.5.0.zip",
+        "changes": [
+            "新增备份/恢复 Cursor 设置配置",
+            "新增备份/恢复 Cursor 会话记录",
+            "新增新版禁用更新",
+            "新增Cursor代理配置",
+            "新增重置机器码",
+            "新增初始化 Cursor",
+            "新增自动注册 Cursor 账号"
+        ],
+        "show_update_url": false,
+        "show_update_notes": true,
+        "update_date": "2025-04-20",
         "notification": {
             "show": false,
             "level": "info",
@@ -40,21 +46,22 @@
         }
     },
     "linux": {
-        "latest_version": "3.1.0",
-        "min_version": "3.1.0",
+        "latest_version": "3.5.0",
+        "min_version": "3.5.0",
         "force_update": true,
-        "update_url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DW3WPtF34S3QW7cRWexJ5P",
+        "update_url": "https://cursor.yan.vin/download/YCursor_linux_v3.5.0.zip",
         "changes": [
-            "添加设置页面",
-            "设置页面添加偏好设置",
-            "账户管理页面添加账户详情功能（点击邮箱号）",
-            "账户详情添加查看邮箱号和密码",
-            "账户详情添加账户备注功能",
-            "优化保存当前账户按钮功能"
+            "新增备份/恢复 Cursor 设置配置",
+            "新增备份/恢复 Cursor 会话记录",
+            "新增新版禁用更新",
+            "新增Cursor代理配置",
+            "新增重置机器码",
+            "新增初始化 Cursor",
+            "新增自动注册 Cursor 账号"
         ],
         "show_update_url": false,
         "show_update_notes": true,
-        "update_date": "2025-04-02",
+        "update_date": "2025-04-20",
         "notification": {
             "show": false,
             "level": "info",
@@ -71,7 +78,7 @@
         },
         "disclaimer": {
             "show": true,
-			"version": "2.0",
+            "version": "2.0",
             "title": "免责声明",
             "content": [
                 "1. 本脚本软件仅供学习交流使用，未经开发者明确书面许可，任何人不得将其用于商业目的。",
@@ -85,6 +92,21 @@
             "must_agree": true,
             "agree_button": "我同意",
             "cancel_button": "我不同意并退出"
+        },
+        "about_info": {
+            "copyright": "© 20251 Yan - All rights reserved",
+            "email": "yan@yjf.vin1",
+            "qq_group1_label": "QQ群1",
+            "qq_group1": "631250950222",
+            "qq_group2_label": "(群满加三群: {})",
+            "qq_group2": "75243944522",
+            "doc_links": [
+                {"icon": "📖", "desc": "官方文档:", "url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DKRZhtXI98ELAa724va8q8"},
+                {"icon": "💰", "desc": "赞赏帮助:", "url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=Dhxjveq0qkJEjXPHdPofa1"},
+                {"icon": "📜", "desc": "更新日志:", "url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DW3WPtF34S3QW7cRWexJ5P"},
+                {"icon": "⚙️", "desc": "自动注册配置:", "url": "https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=TKqrmzfCkQcbQnP5Lk70iU"},
+                {"icon": "⚙️", "desc": "xiaozuiba:", "url": "https://yan.vin"}
+            ]
         }
     }
 }
