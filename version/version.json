@@ -3,7 +3,7 @@
         "enabled": true,
         "type": "info",
         "title": "提示",
-        "content": "Win系统推荐使用 YCursor，能够防止掉试用\n目前已经发布Win测试版\n2025-04-26 23:00",
+        "content": "Win/Mac系统推荐使用 YCursor，能够防止掉试用\n目前已经发布Win测试版\n2025-05-14 23:00",
         "show_time": 5
     },
     "windows": {

@@ -2,11 +2,15 @@
 
 ## 🌟 重要提示
 
-> 目前推荐使用 YCursor，能防掉试用 等其他好用的功能
+> **目前推荐使用 YCursor，能防掉试用 等其他好用的功能**
 >
-> win和mac已经发布
+> **win和mac已经发布**
 >
-> Ycursor 文档 [点我](https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DKRZhtXI98ELAa724va8q8) 👈
+> **Ycursor 文档 [点我](https://docs.qq.com/aio/DV2VKUnNaeFRyRGRH?p=DKRZhtXI98ELAa724va8q8) 👈**
+
+
+
+
 
 全网免费auto第一个解决自动更换账户后打开Cursor账户自动退出问题
 
@@ -19,7 +23,7 @@
 > 不直接发布在Github原因已经很明了，防止被倒卖。国内的开源环境就这样，差得很
 
 ## 🚀 最新更新 v7.6.0
-- 新增支持 Cursor v0.49.x 版
+- 新增支持 Cursor v0.50.x 版
 - 优化界面显示和用户体验
 - **解决自动登录后打开Cursor会自动退出问题（超级无敌重要）**
 - **重构修改机器码修改更新逻辑使Mac支持更高的版本**
@@ -256,7 +260,7 @@ Journey - 提供的自动化思路
 群友 @atom - 提供的帮助
 
 ---
-**文档最后更新时间：2025-05-06 2:00**
+**文档最后更新时间：2025-05-14 2:00**
 
 **脚本更新在群里通知，上面只是文档**
 
